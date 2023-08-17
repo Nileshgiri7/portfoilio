@@ -20,9 +20,13 @@ import {
   tesla,
   shopify,
   carrent,
-  jobit,
+  adsprint,
   tripguide,
-  threejs,
+  wordpress,
+  bharosa,
+  baelworks,
+  sss,
+  cdp
 } from "../assets";
 
 export const navLinks = [
@@ -50,32 +54,12 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
     title: "Website Designer",
     icon: creator,
   },
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
   {
     name: "React JS",
     icon: reactjs,
@@ -85,86 +69,123 @@ const technologies = [
     icon: redux,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
+    name: "JavaScript",
+    icon: javascript,
   },
   {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "HTML 5",
+    icon: html,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "CSS 3",
+    icon: css,
   },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
+    name: 'wordpress',
+    icon: wordpress
+  }
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Software Developer",
+    company_name: "Baelworks | ADSprint, Bangalore",
+    icon: baelworks,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Aug 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Team lead, Complete UI development in ADSprint, UI integration with ReactJs, ReduxToolkit with persist.",
+      "mplemented the UI design with MUI, DataGrid, ReactJs, ReduxToolkit with persist.",
+      "WS S3 integration with ReactJS.",
+      "GitHub branch merge and sinks all the branch code and managed in ADSprint.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    title: "Software Developer",
+    company_name: "Baelworks | Bharosa agri tech",
+    icon: baelworks,
+    iconBg: "#E6DEDD",
+    date: "Jan 2022 - Oct 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      " UI development in Bharosa agri tech, UI integration with ReactJs framework with redux.",
+      "Implemented the UI design with HTML5, CSS3, Bootstrap5, ReactJs, Redux with Axios.",
+      "Bitbucket branch merge in Bharosh agri tech.",
     ],
+  },
+  {
+    title: "ReactJs Developer",
+    company_name: "Baelworks | Parivaar Organization, Kolkat",
+    icon: baelworks,
+    iconBg: "#E6DEDD",
+    date: "Mar 2022 - Jun 2022",
+    points: [
+      "Team Lead, Complete UI development in Parivaar HR, UI integration with ReactJs framework with redux",
+      "Developed different master Components with ReactJs. ",
+      "Implemented the UI design with HTML5, CSS3, Bootstrap5, ReactJs.",
+      "API Integration using Redux with Axios.",
+      "GitHub branch merge and managed in Parivaar HR.",
+      "Client Interaction for the requirements.",
+    ],
+  },
+  {
+    title: "Software Developer",
+    company_name: "Baelworks | Cyber Defense Portal (Cyberstash Pvt Ltd, Australia)",
+    icon: baelworks,
+    iconBg: "#E6DEDD",
+    date: "Jan 2022 - May 2022",
+    points: [
+      "Developed User Interface with HTML5, CSS3 and Bootstrap 4.",
+      "Developed Website using WordPress.",    ],
   },
   {
     title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    company_name: "SSS | TruFan, US",
+    icon: sss,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Nov 2021 - Mar 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed Components using Material UI.",
+      "Client Interaction for the requirements.",
+      "AWS serverless API Integration using Redux with axios.",
+    ],
+  },
+  {
+    title: " UI Developer",
+    company_name: "SSS | FoodLinked, Oman",
+    icon: sss,
+    iconBg: "#E6DEDD",
+    date: "Nov 2018 - Mar 2019",
+    points: [
+      "Team Lead, Complete UI development",
+      "Developed User Interface with HTML, CSS and Bootstrap.",
+      "API Integration using Redux with Axios.",
+      "Client Interaction for the requirements.",
+    ],
+  },
+  {
+    title: " UI Developer",
+    company_name: "SSS | IT GROUP CODE OLYMPIAN",
+    icon: sss,
+    iconBg: "#E6DEDD",
+    date: "",
+    points: [
+      "Team Lead, Complete UI development in transport management system.",
+      "Managed and supervised a team of 12 during the day-to-day operations as well as training exercises.",
+      "Successfully distributed work evenly among teams to achieve maximum time management and to ensure the success of the objective at hand.",
+      "Plan and implement all stages of projects",
+      "Direct project team members in designing, developing, testing and maintaining software applications."
     ],
   },
 ];
@@ -198,9 +219,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "ADSprint",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "It provides news agencies with a web-based advertising platform. Various types of advertising are available, including classifieds, obituaries, displays, and audited or unaudited financial reports. Online advertising campaigns can be managed and controlled with this. Using this medium, agencies can manage their advertising  campaigns",
     tags: [
       {
         name: "react",
@@ -211,17 +232,17 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "mui",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: adsprint,
+    // source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: " Bharosa agri tech",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A Portal where we have all our farmers, their land & crop information, can verify their basic info & land geo tag info from the portal and generate the reports for their land, which will help to get the loans from Bank",
     tags: [
       {
         name: "react",
@@ -232,34 +253,97 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "bootstrap",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: bharosa,
+    // source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Cyber Defense Portal",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Cyber Defense Portal (CDP) is a security portal includes third-party vendors API’s which detect threat and vulnerability and raise ticket, perform automation actions in order to block and allow suspected IP and Domain.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "spring",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "mui",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: cdp,
+    // source_code_link: "https://github.com/",
   },
+  // {
+  //   name: "TruFan",
+  //   description:
+  //     "TruFan is a web development project that allows users to play cricket, basketball, and football tournaments as well as predict the outcomes of matches. With TruFan, users can put their sports knowledge to the test and possibly win some prizes.",
+  //   tags: [
+  //     {
+  //       name: "nextjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "supabase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: tripguide,
+  //   // source_code_link: "https://github.com/",
+  // },
+  // {
+  //   name: "Parivaar Organization",
+  //   description:
+  //     "Parivaar is an NGO that provides free education and accommodation to the poor students. We are developing human resource management to help maintain records of all employees and their activities.",
+  //   tags: [
+  //     {
+  //       name: "nextjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "supabase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: tripguide,
+  //   // source_code_link: "https://github.com/",
+  // },
+  // {
+  //   name: "FoodLinked",
+  //   description:
+  //     "FoodLinked is a recruitment System which is associated with Naukri and Other School. A person can have both roles as employer and as well as a job seeker. On the Other hand, User can Apply on Jobs and attend the Assigned test, and can set his job preferences According to their interest and Skills. Here we have given auto login System so that they can automatically login by social engine.",
+  //   tags: [
+  //     {
+  //       name: "nextjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "supabase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: tripguide,
+  //   // source_code_link: "https://github.com/",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };

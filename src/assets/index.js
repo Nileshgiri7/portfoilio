@@ -1,4 +1,5 @@
 import logo from "./logo.png";
+import favicon from "./favicon.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -29,9 +30,19 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import wordpress from "./tech/wordpress.png";
+import adsprint from "./adsprint.png";
+import bharosa from "./bharosa.png";
+import cdp from "./cdp.png";
+import baelworks from "./company/baelworks.png";
+import sss from "./company/sss.png";
+
+
+
 
 export {
   logo,
+  favicon,
   backend,
   creator,
   mobile,
@@ -59,4 +70,10 @@ export {
   carrent,
   jobit,
   tripguide,
+  wordpress,
+  adsprint,
+  bharosa,
+  baelworks,
+  sss,
+  cdp
 };
