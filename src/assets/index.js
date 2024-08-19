@@ -35,10 +35,14 @@ import adsprint from "./adsprint.png";
 import bharosa from "./bharosa.png";
 import cdp from "./cdp.png";
 import baelworks from "./company/baelworks.png";
-import sss from "./company/sss.png";
-
-
-
+import sss from "./company/sss-logo.png";
+import tofrum from "./company/tofrum.png";
+import strapi from "./tech/strapi.png";
+import buzz from "./buzz.png";
+import trufan from "./trufan.png";
+import msat from "./msat.png";
+import parivaar from "./parivaar.png";
+import soar from "./soar.png";
 
 export {
   logo,
@@ -75,5 +79,12 @@ export {
   bharosa,
   baelworks,
   sss,
-  cdp
+  cdp,
+  tofrum,
+  strapi,
+  buzz,
+  trufan,
+  msat,
+  parivaar,
+  soar
 };
