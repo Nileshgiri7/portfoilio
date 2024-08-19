@@ -1,6 +1,5 @@
 import {
   mobile,
-  backend,
   creator,
   web,
   javascript,
@@ -10,23 +9,22 @@ import {
   reactjs,
   redux,
   tailwind,
-  nodejs,
-  mongodb,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
   shopify,
-  carrent,
   adsprint,
-  tripguide,
   wordpress,
   bharosa,
   baelworks,
   sss,
-  cdp
+  cdp,
+  tofrum,
+  strapi,
+  trufan,
+  buzz,
+  msat,
+  parivaar,
+  backend,
+  soar
 } from "../assets";
 
 export const navLinks = [
@@ -56,6 +54,10 @@ const services = [
   {
     title: "Website Designer",
     icon: creator,
+  },
+  {
+    title: "Ecommerce Developer",
+    icon: backend,
   },
 ];
 
@@ -95,21 +97,64 @@ const technologies = [
   {
     name: 'wordpress',
     icon: wordpress
+  },
+  {
+    name: 'shopify',
+    icon: shopify
+  },
+  {
+    name: 'strapi',
+    icon: strapi
   }
 ];
 
 const experiences = [
   {
+    title: "Team Lead",
+    company_name: "SSS | BUZZ",
+    icon: sss,
+    iconBg: "#E6DEDD",
+    date: "Aug 2024 - Present",
+    points: [
+      "Led the UI development for ADSprint, integrating UI with ReactJs",
+      "Developed reusable UI components using React",
+      "Ensured all user inputs were validated before submission.",
+      "Conducted thorough testing of UI components",
+    ],
+  }, 
+  {
+    title: "Front-End Developer",
+    company_name: "Tofrum | MSAT",
+    icon: tofrum,
+    iconBg: "#E6DEDD",
+    date: "Sep 2023 - Jun 2024",
+    points: [
+      "Developed the UI for the Management System Application Tool (MSAT)",
+      "Utilized Jira for sprint management and GitHub for branch merging and synchronization",
+      "Collaborated with customers for branding and marketing requirements",
+    ],
+  }, 
+  {
+    title: "Software Developer",
+    company_name: "Baelworks | Soar - Cyber Defense Portal (Cyberstash Pvt Ltd, Australia)",
+    icon: baelworks,
+    iconBg: "#E6DEDD",
+    date: "Jun - Sep 2023",
+    points: [
+      "Created reusable UI components using React",
+      "Leveraged React Flow for workflow creation",
+      "Integrated APIs using Redux Toolkit"
+    ],
+  }, {
     title: "Software Developer",
     company_name: "Baelworks | ADSprint, Bangalore",
     icon: baelworks,
     iconBg: "#E6DEDD",
-    date: "Aug 2022 - Present",
+    date: "Aug 2022 - Oct 2023",
     points: [
-      "Team lead, Complete UI development in ADSprint, UI integration with ReactJs, ReduxToolkit with persist.",
-      "mplemented the UI design with MUI, DataGrid, ReactJs, ReduxToolkit with persist.",
-      "WS S3 integration with ReactJS.",
-      "GitHub branch merge and sinks all the branch code and managed in ADSprint.",
+      "Led the complete UI development for ADSprint",
+      "Implemented UI design with MUI, DataGrid, and Redux Toolkit",
+      "Integrated AWS S3 with ReactJS",
     ],
   },
   {
@@ -117,11 +162,10 @@ const experiences = [
     company_name: "Baelworks | Bharosa agri tech",
     icon: baelworks,
     iconBg: "#E6DEDD",
-    date: "Jan 2022 - Oct 2022",
+    date: "Jan - Oct 2022",
     points: [
-      " UI development in Bharosa agri tech, UI integration with ReactJs framework with redux.",
-      "Implemented the UI design with HTML5, CSS3, Bootstrap5, ReactJs, Redux with Axios.",
-      "Bitbucket branch merge in Bharosh agri tech.",
+      "Developed the UI for Bharosa Agri Tech",
+      "Implemented UI design using HTML5, CSS3, Bootstrap5, ReactJs, and Redux",
     ],
   },
   {
@@ -129,14 +173,11 @@ const experiences = [
     company_name: "Baelworks | Parivaar Organization, Kolkat",
     icon: baelworks,
     iconBg: "#E6DEDD",
-    date: "Mar 2022 - Jun 2022",
+    date: "Mar - Jun 2022",
     points: [
-      "Team Lead, Complete UI development in Parivaar HR, UI integration with ReactJs framework with redux",
-      "Developed different master Components with ReactJs. ",
-      "Implemented the UI design with HTML5, CSS3, Bootstrap5, ReactJs.",
-      "API Integration using Redux with Axios.",
-      "GitHub branch merge and managed in Parivaar HR.",
-      "Client Interaction for the requirements.",
+      "Led the UI development for Parivaar HR",
+      "Developed master components with ReactJs",
+      "Integrated APIs using Redux and Axios",
     ],
   },
   {
@@ -156,26 +197,22 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Nov 2021 - Mar 2022",
     points: [
-      "Developed Components using Material UI.",
-      "Client Interaction for the requirements.",
-      "AWS serverless API Integration using Redux with axios.",
+      "Developed components using Material UI",
+      "Integrated AWS serverless API using Redux and Axios",
     ],
   },
   {
-    title: " UI Developer",
+    title: "UI Developer",
     company_name: "SSS | FoodLinked, Oman",
     icon: sss,
     iconBg: "#E6DEDD",
     date: "Nov 2018 - Mar 2019",
     points: [
-      "Team Lead, Complete UI development",
-      "Developed User Interface with HTML, CSS and Bootstrap.",
-      "API Integration using Redux with Axios.",
-      "Client Interaction for the requirements.",
+      "Developed user interfaces for the FoodLinked recruitment system",
     ],
   },
   {
-    title: " UI Developer",
+    title: "UI Developer",
     company_name: "SSS | IT GROUP CODE OLYMPIAN",
     icon: sss,
     iconBg: "#E6DEDD",
@@ -190,38 +227,75 @@ const experiences = [
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
-
 const projects = [
   {
+    id: 1,
+    name: "BUZZ",
+    description:
+      "Buzz boosts local tourism and community connections with a user-friendly platform, offering maps and real-time updates. It collaborates with partners to increase engagement, promoting local economies and strengthening community bonds.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mui",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: buzz,
+  },
+  {
+    id: 2,
+    name: "MSAT",
+    description:
+      "MSAT offers a holistic view of certification and compliance, integrating multiple standards into one system. This tool enhances decision-making and efficiency, fostering trust with clients and stakeholders in the enterprise and system protection.",
+    tags: [
+      {
+        name: "JavaScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "HTML5",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS3",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: msat,
+  },
+  {
+    id: 3,
+    name: "Soar",
+    description:
+      "Soar within Cyber Defense Portal automates incident response, streamlining processes and reducing manual effort. It integrates security tools and workflows for efficient incident investigation and containment, improving overall security operations.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mui",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: soar,
+  },
+  {
+    id: 4,
     name: "ADSprint",
     description:
-      "It provides news agencies with a web-based advertising platform. Various types of advertising are available, including classifieds, obituaries, displays, and audited or unaudited financial reports. Online advertising campaigns can be managed and controlled with this. Using this medium, agencies can manage their advertising  campaigns",
+      "ADSprint is a web-based platform for news agencies to manage advertising campaigns, including classifieds, obituaries, and financial reports. It offers agencies full control over online advertising, enhancing campaign management and effectiveness.",
     tags: [
       {
         name: "react",
@@ -237,12 +311,12 @@ const projects = [
       },
     ],
     image: adsprint,
-    // source_code_link: "https://github.com/",
   },
   {
-    name: " Bharosa agri tech",
+    id: 5,
+    name: "Bharosa agri tech",
     description:
-      "A Portal where we have all our farmers, their land & crop information, can verify their basic info & land geo tag info from the portal and generate the reports for their land, which will help to get the loans from Bank",
+      "Bharosa Agri Tech Portal provides a comprehensive platform for farmers to verify and manage land and crop information. This helps them generate reports and access loans from banks, facilitating financial support and growth in the agricultural sector.",
     tags: [
       {
         name: "react",
@@ -258,12 +332,33 @@ const projects = [
       },
     ],
     image: bharosa,
-    // source_code_link: "https://github.com/",
   },
   {
-    name: "Cyber Defense Portal",
+    id: 6,
+    name: "Parivaar Org",
     description:
-      "Cyber Defense Portal (CDP) is a security portal includes third-party vendors API’s which detect threat and vulnerability and raise ticket, perform automation actions in order to block and allow suspected IP and Domain.",
+      "Parivaar Organization, an NGO, provides free education and accommodation to underprivileged students. The project involves developing a human resource management system to maintain records of employees and activities, ensuring efficient operations.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "spring",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mui",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: parivaar,
+  },
+  {
+    id: 7,
+    name: "Cyber Portal",
+    description:
+      "Cyber Defense Portal integrates third-party APIs to detect threats and vulnerabilities, automate actions, and manage incident response. The portal enhances security by allowing real-time decisions on blocking or allowing suspected IPs and domains.",
     tags: [
       {
         name: "react",
@@ -279,71 +374,28 @@ const projects = [
       },
     ],
     image: cdp,
-    // source_code_link: "https://github.com/",
   },
-  // {
-  //   name: "TruFan",
-  //   description:
-  //     "TruFan is a web development project that allows users to play cricket, basketball, and football tournaments as well as predict the outcomes of matches. With TruFan, users can put their sports knowledge to the test and possibly win some prizes.",
-  //   tags: [
-  //     {
-  //       name: "nextjs",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "supabase",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: tripguide,
-  //   // source_code_link: "https://github.com/",
-  // },
-  // {
-  //   name: "Parivaar Organization",
-  //   description:
-  //     "Parivaar is an NGO that provides free education and accommodation to the poor students. We are developing human resource management to help maintain records of all employees and their activities.",
-  //   tags: [
-  //     {
-  //       name: "nextjs",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "supabase",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: tripguide,
-  //   // source_code_link: "https://github.com/",
-  // },
-  // {
-  //   name: "FoodLinked",
-  //   description:
-  //     "FoodLinked is a recruitment System which is associated with Naukri and Other School. A person can have both roles as employer and as well as a job seeker. On the Other hand, User can Apply on Jobs and attend the Assigned test, and can set his job preferences According to their interest and Skills. Here we have given auto login System so that they can automatically login by social engine.",
-  //   tags: [
-  //     {
-  //       name: "nextjs",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "supabase",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: tripguide,
-  //   // source_code_link: "https://github.com/",
-  // },
+  {
+    id: 8,
+    name: "TruFan",
+    description:
+      "TruFan is a sports gaming platform that allows users to participate in cricket, basketball, football and other games tournaments and predict match outcomes. It offers a chance to test sports knowledge and win prizes, enhancing the user experience.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "spring",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mui",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: trufan,
+  },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
