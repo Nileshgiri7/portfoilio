@@ -11,6 +11,7 @@ import {
   Works,
   StarsCanvas,
 } from "./components";
+import CopyWrite from "./components/CopyWrite";
 
 const App = () => {
   return (
@@ -28,6 +29,7 @@ const App = () => {
         <div className="relative z-0">
           <Contact />
           <StarsCanvas />
+          <CopyWrite />
         </div>
       </div>
     </BrowserRouter>
