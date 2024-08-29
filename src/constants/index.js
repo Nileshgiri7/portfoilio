@@ -139,7 +139,7 @@ const experiences = [
     company_name: "Baelworks | Soar - Cyber Defense Portal (Cyberstash Pvt Ltd, Australia)",
     icon: baelworks,
     iconBg: "#E6DEDD",
-    date: "Jun - Sep 2023",
+    date: "Jun 2023 - Sep 2023",
     points: [
       "Created reusable UI components using React",
       "Leveraged React Flow for workflow creation",
@@ -150,7 +150,7 @@ const experiences = [
     company_name: "Baelworks | ADSprint, Bangalore",
     icon: baelworks,
     iconBg: "#E6DEDD",
-    date: "Aug 2022 - Oct 2023",
+    date: "Aug 2022 - Aug 2023",
     points: [
       "Led the complete UI development for ADSprint",
       "Implemented UI design with MUI, DataGrid, and Redux Toolkit",
@@ -162,7 +162,7 @@ const experiences = [
     company_name: "Baelworks | Bharosa agri tech",
     icon: baelworks,
     iconBg: "#E6DEDD",
-    date: "Jan - Oct 2022",
+    date: "Jan 2022 - Oct 2022",
     points: [
       "Developed the UI for Bharosa Agri Tech",
       "Implemented UI design using HTML5, CSS3, Bootstrap5, ReactJs, and Redux",
@@ -173,22 +173,12 @@ const experiences = [
     company_name: "Baelworks | Parivaar Organization, Kolkat",
     icon: baelworks,
     iconBg: "#E6DEDD",
-    date: "Mar - Jun 2022",
+    date: "Mar 2022 - Jun 2022",
     points: [
       "Led the UI development for Parivaar HR",
       "Developed master components with ReactJs",
       "Integrated APIs using Redux and Axios",
     ],
-  },
-  {
-    title: "Software Developer",
-    company_name: "Baelworks | Cyber Defense Portal (Cyberstash Pvt Ltd, Australia)",
-    icon: baelworks,
-    iconBg: "#E6DEDD",
-    date: "Jan 2022 - May 2022",
-    points: [
-      "Developed User Interface with HTML5, CSS3 and Bootstrap 4.",
-      "Developed Website using WordPress.",    ],
   },
   {
     title: "Full stack Developer",
@@ -202,29 +192,15 @@ const experiences = [
     ],
   },
   {
-    title: "UI Developer",
-    company_name: "SSS | FoodLinked, Oman",
-    icon: sss,
+    title: "Software Developer",
+    company_name: "Baelworks | Cyber Defense Portal (Cyberstash Pvt Ltd, Australia)",
+    icon: baelworks,
     iconBg: "#E6DEDD",
-    date: "Nov 2018 - Mar 2019",
+    date: "Feb 2021 - May 2021",
     points: [
-      "Developed user interfaces for the FoodLinked recruitment system",
-    ],
-  },
-  {
-    title: "UI Developer",
-    company_name: "SSS | IT GROUP CODE OLYMPIAN",
-    icon: sss,
-    iconBg: "#E6DEDD",
-    date: "",
-    points: [
-      "Team Lead, Complete UI development in transport management system.",
-      "Managed and supervised a team of 12 during the day-to-day operations as well as training exercises.",
-      "Successfully distributed work evenly among teams to achieve maximum time management and to ensure the success of the objective at hand.",
-      "Plan and implement all stages of projects",
-      "Direct project team members in designing, developing, testing and maintaining software applications."
-    ],
-  },
+      "Developed User Interface with HTML5, CSS3 and Bootstrap 4.",
+      "Developed Website using WordPress.",    ],
+  }
 ];
 
 const projects = [
