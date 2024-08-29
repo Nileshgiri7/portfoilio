@@ -47,7 +47,8 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Welcome to my portfolio! I'm a seasoned Software Developer with over 6 years of expertise in crafting captivating web applications. Proficient in ReactJS, Redux, JavaScript, HTML5, CSS3 and Wordpress my passion lies in creating seamless user experiences that blend cutting-edge technology with elegant design. Let's explore the digital realm together!
+        A Software Technology Professional with 3+ years of experience specializing in frontend development with a passion for responsive 
+        website design. Proficient in the mobile-first approach, I have successfully implemented various responsive website solutions.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

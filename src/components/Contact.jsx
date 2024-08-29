@@ -7,6 +7,7 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -28,7 +29,7 @@ const Contact = () => {
     emailjs
       .send(
         "service_9b1l8qf",
-        "template_kaqa2wv",
+        "template_1qg3i8c",
         {
           form_name: form.name,
           to_name: "Nilesh",
@@ -49,11 +50,8 @@ const Contact = () => {
             message: "",
           });
         },
-        (error) => {
+        () => {
           setLoading(false);
-
-          console.log(error);
-          alert("Something went wrong.");
         }
       );
   };
