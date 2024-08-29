@@ -35,7 +35,7 @@ import adsprint from "./adsprint.png";
 import bharosa from "./bharosa.png";
 import cdp from "./cdp.png";
 import baelworks from "./company/baelworks.png";
-import sss from "./company/sss-logo.png";
+import sss from "./company/SSS-Logo.png";
 import tofrum from "./company/tofrum.png";
 import strapi from "./tech/strapi.png";
 import buzz from "./buzz.png";
