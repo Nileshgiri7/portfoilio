@@ -47,8 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        A Software Technology Professional with 3+ years of experience specializing in frontend development with a passion for responsive 
-        website design. Proficient in the mobile-first approach, I have successfully implemented various responsive website solutions.
+        Innovative Software Technology Professional with over 3+ years of expertise in frontend development. Adept at crafting responsive designs and leveraging modern frameworks to deliver high-performance web solutions. Proven track record of implementing scalable, mobile-first designs and optimizing user interfaces for enhanced engagement.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
