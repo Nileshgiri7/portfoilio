@@ -116,10 +116,10 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Aug 2024 - Present",
     points: [
-      "Led the UI development for ADSprint, integrating UI with ReactJs",
-      "Developed reusable UI components using React",
-      "Ensured all user inputs were validated before submission.",
-      "Conducted thorough testing of UI components",
+      "Spearheaded the frontend development for ADSprint, employing ReactJS for dynamic user interfaces",
+      "Engineered modular UI components for scalability and maintainability",
+      "Implemented comprehensive input validation to ensure data integrity",
+      "Conducted detailed component testing to enhance user experience",
     ],
   }, 
   {
@@ -129,9 +129,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Sep 2023 - Jun 2024",
     points: [
-      "Developed the UI for the Management System Application Tool (MSAT)",
-      "Utilized Jira for sprint management and GitHub for branch merging and synchronization",
-      "Collaborated with customers for branding and marketing requirements",
+      "Designed and developed the frontend for the Management System Application Tool (MSAT)",
+      "Utilized Jira for project management and GitHub for version control and integration",
+      "Engaged with clients to tailor the interface according to branding and marketing specifications",
     ],
   }, 
   {
@@ -141,9 +141,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jun 2023 - Sep 2023",
     points: [
-      "Created reusable UI components using React",
-      "Leveraged React Flow for workflow creation",
-      "Integrated APIs using Redux Toolkit"
+      "Crafted and optimized reusable UI components using ReactJS",
+      "Utilized React Flow to model and manage complex workflows",
+      "Integrated backend services through APIs using Redux Toolkit for seamless data handling"
     ],
   }, {
     title: "Software Developer",
@@ -152,9 +152,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Aug 2022 - Aug 2023",
     points: [
-      "Led the complete UI development for ADSprint",
-      "Implemented UI design with MUI, DataGrid, and Redux Toolkit",
-      "Integrated AWS S3 with ReactJS",
+      "Led the frontend development for ADSprint, focusing on user interface and experience",
+      "Applied MUI and DataGrid to create sophisticated data displays and interactions",
+      "Integrated cloud storage solutions via AWS S3 with ReactJS for enhanced functionality",
     ],
   },
   {
@@ -164,8 +164,8 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jan 2022 - Oct 2022",
     points: [
-      "Developed the UI for Bharosa Agri Tech",
-      "Implemented UI design using HTML5, CSS3, Bootstrap5, ReactJs, and Redux",
+      "Developed and styled the user interface for Bharosa Agri Tech using modern web technologies",
+      "Leveraged HTML5, CSS3, and Bootstrap5 for responsive and visually appealing design elements",
     ],
   },
   {
@@ -175,9 +175,8 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Mar 2022 - Jun 2022",
     points: [
-      "Led the UI development for Parivaar HR",
-      "Developed master components with ReactJs",
-      "Integrated APIs using Redux and Axios",
+      "Led the development of the Parivaar HR interface, focusing on creating reusable ReactJS components",
+      "Coordinated API integration using Redux and Axios to streamline data interactions",
     ],
   },
   {
@@ -187,8 +186,8 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Nov 2021 - Mar 2022",
     points: [
-      "Developed components using Material UI",
-      "Integrated AWS serverless API using Redux and Axios",
+      "Developed interactive components with Material UI for a high-performance user experience",
+      "Integrated AWS serverless APIs with Redux and Axios to facilitate backend communication",
     ],
   },
   {
@@ -198,8 +197,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Feb 2021 - May 2021",
     points: [
-      "Developed User Interface with HTML5, CSS3 and Bootstrap 4.",
-      "Developed Website using WordPress.",    ],
+      "Created versatile UI components with ReactJS, focusing on reusability and consistency",
+      "Employed Redux Toolkit for effective API integration and state management",
+      ],
   }
 ];
 
