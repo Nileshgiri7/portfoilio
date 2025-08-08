@@ -3,11 +3,12 @@ import React, { useState } from 'react';
 import { ArrowLeft, Mail, Phone, MapPin, Send, Github, Linkedin, Twitter, CheckCircle } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { useToast } from '@/hooks/use-toast';
+import { sendEmail, ContactFormData } from '@/lib/emailService';
 
 const ContactPage = () => {
   const navigate = useNavigate();
   const { toast } = useToast();
-  const [formData, setFormData] = useState({
+  const [formData, setFormData] = useState<ContactFormData>({
     name: '',
     email: '',
     subject: '',
@@ -20,21 +21,16 @@ const ContactPage = () => {
     setIsSubmitting(true);
 
     try {
-      // Simulate API call
-      await new Promise(resolve => setTimeout(resolve, 2000));
-      
-      // Here you would typically send the email via your backend API
-      // For now, we'll just show a success message
+      await sendEmail(formData);
       toast({
         title: "Message Sent Successfully!",
         description: "Thank you for your message. I'll get back to you within 24 hours!",
       });
-      
       setFormData({ name: '', email: '', subject: '', message: '' });
     } catch (error) {
       toast({
         title: "Error",
-        description: "Failed to send message. Please try again.",
+        description: "Failed to send message. Please try again or email me directly.",
         variant: "destructive",
       });
     } finally {

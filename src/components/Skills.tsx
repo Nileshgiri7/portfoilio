@@ -1,7 +1,23 @@
 
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useMemo } from 'react';
 import { useInView } from 'react-intersection-observer';
 import { Code, Palette, Database, Cloud, Cpu, Globe } from 'lucide-react';
+
+// Move arrays outside component to prevent re-creation on each render
+const skillsData = [
+  { name: 'JavaScript/TypeScript', level: 95, color: 'from-yellow-400 to-orange-500', icon: Code },
+  { name: 'React.js', level: 92, color: 'from-blue-400 to-cyan-500', icon: Globe },
+  { name: 'Node.js', level: 75, color: 'from-green-400 to-emerald-500', icon: Cpu },
+  { name: 'WordPress', level: 80, color: 'from-blue-500 to-indigo-600', icon: Code },
+  { name: 'UI Design', level: 90, color: 'from-purple-400 to-pink-500', icon: Palette },
+  { name: 'Database Design', level: 85, color: 'from-red-400 to-rose-500', icon: Database },
+];
+
+const technologiesData = [
+  'React', 'Vue.js', 'MUI', 'Node.js', 'Express', 'MongoDB',
+  'PostgreSQL', 'AWS', 'NextJs', 'Kubernetes', 'GraphQL', 'REST APIs',
+  'Tailwind CSS', 'Sass', 'Webpack', 'Git', 'WordPress', 'Cypress'
+];
 
 const Skills = () => {
   const [ref, inView] = useInView({ threshold: 0.3, triggerOnce: true });
@@ -12,21 +28,6 @@ const Skills = () => {
       setAnimationTriggered(true);
     }
   }, [inView, animationTriggered]);
-
-  const skills = [
-    { name: 'JavaScript/TypeScript', level: 95, color: 'from-yellow-400 to-orange-500', icon: Code },
-    { name: 'React.js', level: 92, color: 'from-blue-400 to-cyan-500', icon: Globe },
-    { name: 'Node.js', level: 75, color: 'from-green-400 to-emerald-500', icon: Cpu },
-    { name: 'Wordpress', level: 80, color: 'from-blue-500 to-indigo-600', icon: Code },
-    { name: 'UI Design', level: 90, color: 'from-purple-400 to-pink-500', icon: Palette },
-    { name: 'Database Design', level: 85, color: 'from-red-400 to-rose-500', icon: Database },
-  ];
-
-  const technologies = [
-    'React', 'Vue.js', 'MUI', 'Node.js', 'Express', 'MongoDB',
-    'PostgreSQL', 'AWS', 'NextJs', 'Kubernetes', 'GraphQL', 'REST APIs',
-    'Tailwind CSS', 'Sass', 'Webpack', 'Git', 'WordPress', 'Cypress'
-  ];
 
   return (
     <section id="skills" className="py-20 my-20 bg-white dark:bg-gray-800 relative overflow-hidden transition-colors duration-500">
@@ -49,16 +50,16 @@ const Skills = () => {
             My <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Skills</span>
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mb-8"></div>
-          <p className="text-gray-600 dark:text-gray-300 text-lg max-w-2xl mx-auto">
+          <p className="text-gray-600 dark:text-gray-300 text-base sm:text-lg max-w-2xl mx-auto px-4 sm:px-0">
             Here are the technologies and skills I've mastered throughout my journey as a developer.
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-16">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 px-4 sm:px-0">
           {/* Skill Bars */}
           <div className="space-y-8 animate-fade-in">
             <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-8">Core Competencies</h3>
-            {skills.map((skill, index) => {
+            {skillsData.map((skill, index) => {
               const IconComponent = skill.icon;
               return (
                 <div key={index} className="space-y-2">
@@ -83,8 +84,8 @@ const Skills = () => {
           {/* Technologies */}
           <div className="animate-fade-in" style={{ animationDelay: '200ms' }}>
             <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-8">Technologies & Tools</h3>
-            <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
-              {technologies.map((tech, index) => (
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 sm:gap-4">
+              {technologiesData.map((tech, index) => (
                 <div 
                   key={index}
                   className="p-4 bg-gray-50 dark:bg-gray-700 rounded-lg border border-gray-200 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-600 transition-all duration-300 hover:scale-105 text-center group animate-scale-in"

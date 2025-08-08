@@ -2,56 +2,43 @@
 import React from 'react';
 import { ExternalLink, Github, Eye, ArrowRight } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
+import buzz from "../assets/img/projects/buzz.png"
+import msat from "../assets/img/projects/msat.png"
+import soar from "../assets/img/projects/soar.png"
+import adsprint from "../assets/img/projects/adsprint.png"
+import bharosa from "../assets/img/projects/bharosa.png"
+import parivaar from "../assets/img/projects/parivaar.png"
+import cdp from "../assets/img/projects/cdp.png"
+import trufan from "../assets/img/projects/trufan.png"
 
 const Projects = () => {
   const navigate = useNavigate();
   
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution built with React, Node.js, and MongoDB. Features include user authentication, payment integration, and admin dashboard.",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
-      tech: ["React", "Node.js", "MongoDB", "Stripe", "JWT"],
+      title: "BUZZ",
+      description: "Buzz boosts local tourism and community connections with a user-friendly platform, offering maps and real-time updates. It collaborates with partners to increase engagement, promoting local economies and strengthening community bonds.",
+      image: buzz,
+      tech: ["React", "Redux", "RTK", "JavaScript"],
+      category: "Frontend",
       liveUrl: "#",
       codeUrl: "#",
     },
     {
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
-      tech: ["Vue.js", "Firebase", "Vuex", "Socket.io", "CSS3"],
+      title: "Soar",
+      description: "Soar within Cyber Defense Portal automates incident response, streamlining processes and reducing manual effort. It integrates security tools and workflows for efficient incident investigation and containment, improving overall security operations.",
+      image: soar,
+      tech: ["JavaScript", "API Integration", "Chart.js", "CSS Grid", "MUI"],
+      category: "Frontend",
       liveUrl: "#",
       codeUrl: "#",
     },
     {
-      title: "Weather Dashboard",
-      description: "A responsive weather application that provides real-time weather data, forecasts, and interactive maps using external APIs.",
-      image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=400&fit=crop",
-      tech: ["JavaScript", "API Integration", "Chart.js", "CSS Grid", "PWA"],
-      liveUrl: "#",
-      codeUrl: "#",
-    },
-    {
-      title: "AI Chat Interface",
-      description: "A modern chat interface with AI integration, featuring real-time messaging, file sharing, and intelligent responses.",
-      image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=400&fit=crop",
-      tech: ["React", "OpenAI API", "WebSocket", "Redis", "Express"],
-      liveUrl: "#",
-      codeUrl: "#",
-    },
-    {
-      title: "Social Media Dashboard",
-      description: "An analytics dashboard for social media management with data visualization, scheduling features, and performance metrics.",
-      image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=600&h=400&fit=crop",
-      tech: ["Angular", "D3.js", "Node.js", "PostgreSQL", "Docker"],
-      liveUrl: "#",
-      codeUrl: "#",
-    },
-    {
-      title: "Portfolio Website",
-      description: "A modern, responsive portfolio website built with React and Tailwind CSS, featuring smooth animations and optimized performance.",
-      image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=600&h=400&fit=crop",
-      tech: ["React", "Tailwind CSS", "Framer Motion", "TypeScript", "Vite"],
+      title: "ADSprint",
+      description: "ADSprint is a web-based platform for news agencies to manage advertising campaigns, including classifieds, obituaries, and financial reports. It offers agencies full control over online advertising, enhancing campaign management and effectiveness.",
+      image: adsprint,
+      tech: ["React", "OpenAI API", "WebSocket", "Redis", "Express", "TypeScript", "Node.JS"],
+      category: "Full Stack",
       liveUrl: "#",
       codeUrl: "#",
     }
@@ -70,12 +57,12 @@ const Projects = () => {
             Featured <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Projects</span>
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mb-8"></div>
-          <p className="text-gray-600 dark:text-gray-300 text-lg max-w-2xl mx-auto">
+          <p className="text-gray-600 dark:text-gray-300 text-base sm:text-lg max-w-2xl mx-auto px-4 sm:px-0">
             Here are some of my recent projects that showcase my skills and passion for creating innovative solutions.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mb-8 sm:mb-12 px-4 sm:px-0">
           {projects.map((project, index) => (
             <div 
               key={index}
@@ -109,7 +96,7 @@ const Projects = () => {
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-300">
                   {project.title}
                 </h3>
-                <p className="text-gray-600 dark:text-gray-300 mb-4 leading-relaxed">
+                <p className="text-gray-600 dark:text-gray-300 mb-4 leading-relaxed text-sm sm:text-base">
                   {project.description}
                 </p>
                 

@@ -2,7 +2,7 @@
 import React from 'react';
 import { Heart, Code } from 'lucide-react';
 
-const Footer = () => {
+const PortfolioFooter = () => {
   return (
     <footer className="bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800 py-8 transition-colors duration-500">
       <div className="container mx-auto px-6">
@@ -16,7 +16,7 @@ const Footer = () => {
           </div>
           
           <div className="text-gray-500 dark:text-gray-400 text-sm">
-            © 2025 Portfolio. All rights reserved.
+            © {new Date().getFullYear()} Portfolio. All rights reserved.
           </div>
         </div>
         
@@ -30,4 +30,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default PortfolioFooter;

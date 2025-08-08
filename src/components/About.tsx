@@ -52,19 +52,19 @@ const About = () => {
               <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">
                 Hello! I'm Nilesh Giri
               </h3>
-              <p className="text-gray-600 dark:text-gray-300 text-lg leading-relaxed mb-6">
-                A passionate Full Stack Developer with over 5 years of experience creating digital solutions 
+              <p className="text-gray-600 dark:text-gray-300 text-base sm:text-lg leading-relaxed mb-6">
+                A passionate Full Stack Developer with over 4 years of experience creating digital solutions 
                 that bridge the gap between design and functionality. I specialize in building scalable web 
                 applications using modern technologies.
               </p>
-              <p className="text-gray-600 dark:text-gray-300 text-lg leading-relaxed">
+              <p className="text-gray-600 dark:text-gray-300 text-base sm:text-lg leading-relaxed">
                 When I'm not coding, you'll find me exploring new technologies, contributing to open-source 
                 projects, or sharing my knowledge through technical writing and mentoring.
               </p>
             </div>
 
             {/* Info Cards */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
               <div className="p-4 bg-white/50 dark:bg-gray-800/50 rounded-lg border border-gray-200/50 dark:border-gray-700/50 backdrop-blur-sm hover:bg-white/70 dark:hover:bg-gray-800/70 transition-all duration-300 group">
                 <div className="flex items-center space-x-3">
                   <User className="w-5 h-5 text-blue-600 dark:text-blue-400 group-hover:scale-110 transition-transform duration-300" />
@@ -90,7 +90,7 @@ const About = () => {
                   <Calendar className="w-5 h-5 text-blue-600 dark:text-blue-400 group-hover:scale-110 transition-transform duration-300" />
                   <div>
                     <p className="text-sm text-gray-500 dark:text-gray-400">Experience</p>
-                    <p className="font-semibold text-gray-900 dark:text-white">8+ Years</p>
+                    <p className="font-semibold text-gray-900 dark:text-white">4+ Years</p>
                   </div>
                 </div>
               </div>

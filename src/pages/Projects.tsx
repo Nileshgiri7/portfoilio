@@ -2,6 +2,15 @@
 import React, { useState } from 'react';
 import { ArrowLeft, ExternalLink, Github, Eye, Filter } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
+import buzz from "../assets/img/projects/buzz.png"
+import msat from "../assets/img/projects/msat.png"
+import soar from "../assets/img/projects/soar.png"
+import adsprint from "../assets/img/projects/adsprint.png"
+import bharosa from "../assets/img/projects/bharosa.png"
+import parivaar from "../assets/img/projects/parivaar.png"
+import cdp from "../assets/img/projects/cdp.png"
+import trufan from "../assets/img/projects/trufan.png"
+
 
 const Projects = () => {
   const navigate = useNavigate();
@@ -11,103 +20,103 @@ const Projects = () => {
 
   const allProjects = [
     {
-      title: "E-Commerce Platform",
-      description: "A comprehensive full-stack e-commerce solution with React, Node.js, and MongoDB. Features include user authentication, payment integration, admin dashboard, inventory management, and real-time notifications.",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
-      tech: ["React", "Node.js", "MongoDB", "Stripe", "JWT", "Redux"],
-      category: "fullstack",
+      title: "BUZZ",
+      description: "Buzz boosts local tourism and community connections with a user-friendly platform, offering maps and real-time updates. It collaborates with partners to increase engagement, promoting local economies and strengthening community bonds.",
+      image: buzz,
+      tech: ["React", "Redux", "RTK", "JavaScript"],
+      category: "Frontend",
       liveUrl: "#",
       codeUrl: "#",
     },
     {
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates, drag-and-drop functionality, team collaboration features, time tracking, and project analytics dashboard.",
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
-      tech: ["Vue.js", "Firebase", "Vuex", "Socket.io", "CSS3", "Chart.js"],
-      category: "frontend",
+      title: "MSAT",
+      description: "MSAT offers a holistic view of certification and compliance, integrating multiple standards into one system. This tool enhances decision-making and efficiency, fostering trust with clients and stakeholders in the enterprise and system protection.",
+      image: msat,
+      tech: ["HTML", "JavaScript", "Ajax", ".Net"],
+      category: "Frontend",
       liveUrl: "#",
       codeUrl: "#",
     },
     {
-      title: "Weather Dashboard",
-      description: "A responsive weather application providing real-time weather data, 7-day forecasts, interactive maps, weather alerts, and location-based recommendations using multiple APIs.",
-      image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=400&fit=crop",
-      tech: ["JavaScript", "API Integration", "Chart.js", "CSS Grid", "PWA"],
-      category: "frontend",
+      title: "Soar",
+      description: "Soar within Cyber Defense Portal automates incident response, streamlining processes and reducing manual effort. It integrates security tools and workflows for efficient incident investigation and containment, improving overall security operations.",
+      image: soar,
+      tech: ["JavaScript", "API Integration", "Chart.js", "CSS Grid", "MUI"],
+      category: "Frontend",
       liveUrl: "#",
       codeUrl: "#",
     },
     {
-      title: "AI Chat Interface",
-      description: "A modern chat interface with AI integration featuring real-time messaging, file sharing, intelligent responses, conversation history, and multi-language support.",
-      image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=400&fit=crop",
-      tech: ["React", "OpenAI API", "WebSocket", "Redis", "Express", "TypeScript"],
-      category: "fullstack",
+      title: "ADSprint",
+      description: "ADSprint is a web-based platform for news agencies to manage advertising campaigns, including classifieds, obituaries, and financial reports. It offers agencies full control over online advertising, enhancing campaign management and effectiveness.",
+      image: adsprint,
+      tech: ["React", "OpenAI API", "WebSocket", "Redis", "Express", "TypeScript", "Node.JS"],
+      category: "Full Stack",
       liveUrl: "#",
       codeUrl: "#",
     },
     {
-      title: "Social Media Dashboard",
-      description: "An analytics dashboard for social media management with data visualization, post scheduling, performance metrics, audience insights, and automated reporting features.",
-      image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=600&h=400&fit=crop",
-      tech: ["Angular", "D3.js", "Node.js", "PostgreSQL", "Docker"],
-      category: "fullstack",
+      title: "Bharosa agri tech",
+      description: "Bharosa Agri Tech Portal provides a comprehensive platform for farmers to verify and manage land and crop information. This helps them generate reports and access loans from banks, facilitating financial support and growth in the agricultural sector.",
+      image: bharosa,
+      tech: ["React.JS", "D3.js", "Node.js", "PostgreSQL", "RTK"],
+      category: "Full Stack",
       liveUrl: "#",
       codeUrl: "#",
     },
     {
-      title: "Crypto Trading Bot",
-      description: "An automated cryptocurrency trading bot with machine learning algorithms, risk management, portfolio optimization, and real-time market analysis capabilities.",
-      image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=600&h=400&fit=crop",
-      tech: ["Python", "TensorFlow", "REST APIs", "WebSocket", "Docker"],
-      category: "backend",
+      title: "Parivaar Org",
+      description: "Parivaar Organization, an NGO, provides free education and accommodation to underprivileged students. The project involves developing a human resource management system to maintain records of employees and activities, ensuring efficient operations.",
+      image: parivaar,
+      tech: ["React", "Redux", "RTK", "JavaScript"],
+      category: "Frontend",
       liveUrl: "#",
       codeUrl: "#",
     },
     {
-      title: "Fitness Tracking App",
-      description: "A comprehensive fitness application with workout planning, progress tracking, nutrition monitoring, social features, and personalized coaching recommendations.",
-      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=400&fit=crop",
-      tech: ["React Native", "Firebase", "HealthKit", "Redux", "Charts"],
-      category: "mobile",
+      title: "Cyber Portal",
+      description: "TruFan is a sports gaming platform that allows users to participate in cricket, basketball, football and other games tournaments and predict match outcomes. It offers a chance to test sports knowledge and win prizes, enhancing the user experience.",
+      image: cdp,
+      tech: ["Next.js", "JavaScript", "PostgreSQL", "Mapbox", "Node.Js"],
+      category: "Full Stack",
       liveUrl: "#",
       codeUrl: "#",
     },
     {
-      title: "Learning Management System",
+      title: "TruFan",
       description: "An educational platform with course creation tools, interactive lessons, progress tracking, quizzes, certificates, and collaborative learning features.",
-      image: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=600&h=400&fit=crop",
-      tech: ["React", "Node.js", "MongoDB", "WebRTC", "AWS S3"],
-      category: "fullstack",
+      image: trufan,
+      tech: ["React Native", "Node.js", "MongoDB", "WebRTC", "AWS S3"],
+      category: "Mobile",
       liveUrl: "#",
       codeUrl: "#",
     },
-    {
-      title: "Real Estate Platform",
-      description: "A property listing platform with advanced search, virtual tours, mortgage calculator, agent profiles, and integrated communication tools for buyers and sellers.",
-      image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&h=400&fit=crop",
-      tech: ["Next.js", "Prisma", "PostgreSQL", "Mapbox", "Stripe"],
-      category: "fullstack",
-      liveUrl: "#",
-      codeUrl: "#",
-    },
-    {
-      title: "IoT Dashboard",
-      description: "An Internet of Things monitoring dashboard with real-time sensor data visualization, device management, automated alerts, and predictive analytics.",
-      image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&h=400&fit=crop",
-      tech: ["React", "MQTT", "InfluxDB", "Grafana", "Docker"],
-      category: "fullstack",
-      liveUrl: "#",
-      codeUrl: "#",
-    }
+    // {
+    //   title: "Real Estate Platform",
+    //   description: "A property listing platform with advanced search, virtual tours, mortgage calculator, agent profiles, and integrated communication tools for buyers and sellers.",
+    //   image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&h=400&fit=crop",
+    //   tech: ["Next.js", "Prisma", "PostgreSQL", "Mapbox", "Stripe"],
+    //   category: "fullstack",
+    //   liveUrl: "#",
+    //   codeUrl: "#",
+    // },
+    // {
+    //   title: "IoT Dashboard",
+    //   description: "An Internet of Things monitoring dashboard with real-time sensor data visualization, device management, automated alerts, and predictive analytics.",
+    //   image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&h=400&fit=crop",
+    //   tech: ["React", "MQTT", "InfluxDB", "Grafana", "Docker"],
+    //   category: "fullstack",
+    //   liveUrl: "#",
+    //   codeUrl: "#",
+    // }
   ];
 
   const categories = [
     { id: 'all', label: 'All Projects' },
-    { id: 'frontend', label: 'Frontend' },
-    { id: 'fullstack', label: 'Full Stack' },
-    { id: 'backend', label: 'Backend' },
-    { id: 'mobile', label: 'Mobile' }
+    { id: 'Frontend', label: 'Frontend' },
+    { id: 'Full Stack', label: 'Full Stack' },
+    // { id: 'backend', label: 'Backend' },
+    { id: 'Mobile', label: 'Mobile' }
   ];
 
   const filteredProjects = filter === 'all' 

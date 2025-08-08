@@ -31,19 +31,19 @@ const Contact = () => {
     {
       icon: <Github className="w-6 h-6" />,
       name: "GitHub",
-      url: "#",
+      url: "https://github.com/nileshgiri",
       color: "hover:text-gray-600 dark:hover:text-gray-400"
     },
     {
       icon: <Linkedin className="w-6 h-6" />,
       name: "LinkedIn",
-      url: "#",
+      url: "https://linkedin.com/in/nileshgiri",
       color: "hover:text-blue-600 dark:hover:text-blue-400"
     },
     {
       icon: <Twitter className="w-6 h-6" />,
       name: "Twitter",
-      url: "#",
+      url: "https://twitter.com/nileshgiri",
       color: "hover:text-sky-600 dark:hover:text-sky-400"
     }
   ];
@@ -61,13 +61,13 @@ const Contact = () => {
             Get In <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Touch</span>
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mb-8"></div>
-          <p className="text-gray-600 dark:text-gray-300 text-lg max-w-2xl mx-auto">
+          <p className="text-gray-600 dark:text-gray-300 text-base sm:text-lg max-w-2xl mx-auto px-4 sm:px-0">
             Have a project in mind? Let's work together to create something amazing.
           </p>
         </div>
 
         <div className="max-w-4xl mx-auto">
-          <div className="grid md:grid-cols-3 gap-8 mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 mb-8 sm:mb-12 px-4 sm:px-0">
             {contactInfo.map((info, index) => (
               <a
                 key={index}
