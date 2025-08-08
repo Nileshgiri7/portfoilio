@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { ChevronDown, Github, Linkedin, Mail, Download, ArrowRight, Sparkles, Zap, Star } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import  myProfilePic from '../assets/img/nilesh_giri.jpg';
+import resumePdf from '../assets/doc/Nilesh Giri - Full Stack Developer_.pdf';
 
 const Hero = () => {
   const [displayText, setDisplayText] = useState('');
@@ -33,7 +34,7 @@ const Hero = () => {
     try {
       // Create a temporary link to download the PDF
       const link = document.createElement('a');
-      link.href = '/resume.pdf'; // You'll need to add your resume.pdf to the public folder
+      link.href = resumePdf; // Resume from assets/doc folder
       link.download = 'Nilesh_Giri_Resume.pdf';
       document.body.appendChild(link);
       link.click();
