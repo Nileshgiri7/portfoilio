@@ -19,12 +19,6 @@ const PortfolioFooter = () => {
             © {new Date().getFullYear()} Portfolio. All rights reserved.
           </div>
         </div>
-        
-        <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-800 text-center">
-          <p className="text-gray-500 dark:text-gray-400 text-sm">
-            Built with React, TypeScript, and Tailwind CSS
-          </p>
-        </div>
       </div>
     </footer>
   );

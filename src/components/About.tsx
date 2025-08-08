@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { User, MapPin, Calendar, Heart, Coffee, Code2 } from 'lucide-react';
+import AboutImg from '../assets/img/about.png';
 
 const About = () => {
   return (
@@ -36,7 +37,7 @@ const About = () => {
             <div className="relative">
               <div className="w-full max-w-md mx-auto rounded-2xl overflow-hidden shadow-2xl border-4 border-white/20 dark:border-white/10 backdrop-blur-sm hover:scale-105 transition-transform duration-500">
                 <img 
-                  src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=600&h=600&fit=crop&crop=face" 
+                  src={AboutImg}
                   alt="About Me" 
                   className="w-full h-full object-cover"
                 />
